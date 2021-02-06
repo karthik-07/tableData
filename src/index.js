@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Table from "./Table"
+import New from "./New"
+import Login from "./Login"
+
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Table />,
   document.getElementById('root')
 );
 

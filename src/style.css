@@ -1,0 +1,7 @@
+.site-layout-background p {
+  padding: 10px;
+}
+
+.container {
+  transform: translateX(890px);
+}
